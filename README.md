@@ -1,4 +1,4 @@
-Non-negative Less Square Algorithm
+Non-negative Least Square Algorithm
 ===================
 
 It's a C. Lawson and R. Hanson Fortran 77 code published in

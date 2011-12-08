@@ -9,15 +9,25 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mikhail Lapshin"]
-  s.date = "2011-12-07"
+  s.date = "2011-12-08"
   s.description = "Ruby bindings for C. Lawson and R. Hanson 'Non-negative Less Square' algorithm implementation."
   s.email = "sotakone@sotakone.com"
   s.extensions = ["ext/nnls/extconf.rb"]
+  s.extra_rdoc_files = [
+    "README.md"
+  ]
   s.files = [
+    "README.md",
+    "Rakefile",
+    "VERSION",
     "ext/nnls/extconf.rb",
     "ext/nnls/impl.c",
     "ext/nnls/nnls.c",
-    "lib/nnls.rb"
+    "ext/nnls/test.rb",
+    "lib/nnls.rb",
+    "nnls.gemspec",
+    "test/nnls_test.rb",
+    "test/test_helper.rb"
   ]
   s.homepage = "http://github.com/sotakone/nnls/"
   s.require_paths = ["lib"]

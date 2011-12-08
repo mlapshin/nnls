@@ -5,8 +5,8 @@ begin
 
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "nnls"
-    gemspec.summary = "Non-negative Less Square Algorithm"
-    gemspec.description = "Ruby bindings for C. Lawson and R. Hanson 'Non-negative Less Square' algorithm implementation."
+    gemspec.summary = "Non-negative Least Square Algorithm"
+    gemspec.description = "Ruby bindings for C. Lawson and R. Hanson 'Non-negative Least Square' algorithm implementation."
     gemspec.email = "sotakone@sotakone.com"
     gemspec.homepage = "http://github.com/sotakone/nnls/"
     gemspec.authors = ["Mikhail Lapshin"]
