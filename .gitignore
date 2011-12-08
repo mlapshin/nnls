@@ -1,0 +1,4 @@
+pkg/*
+ext/nnls/*.so
+ext/nnls/Makefile
+ext/nnls/*.o
