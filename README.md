@@ -16,3 +16,8 @@ Usage
 
     result = NNLS.nnls(a, b, 2, 3)
     => [[0.05263157894736844, 0.0, 0.10526315789473684], 0.0]
+
+License
+----------
+
+This gem is distributed under MIT license.
